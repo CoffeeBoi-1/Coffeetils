@@ -1,0 +1,10 @@
+{
+  "name": "coffeetils",
+  "version": "1.0.7",
+  "description": "Useful utils for JavaScript!",
+  "main": "Utils.js",
+  "scripts": {
+  },
+  "author": "coffeeboi",
+  "license": "MIT"
+}
