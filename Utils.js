@@ -50,6 +50,15 @@ class Utils {
     return re.test(String(email).toLowerCase());
   }
 
+  static ValidateURL(url) {
+    try {
+      let newUrl = new URL(string);
+      return true;
+    } catch (_) {
+      return false;
+    }
+  }
+
   static GetAppCookies = (cookie) => {
     if (!cookie) return {}
     const rawCookies = cookie.split('; ');
