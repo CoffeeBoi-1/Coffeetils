@@ -52,7 +52,7 @@ class Utils {
 
   static ValidateURL(url) {
     try {
-      let newUrl = new URL(string);
+      let newUrl = new URL(url);
       return true;
     } catch (_) {
       return false;
